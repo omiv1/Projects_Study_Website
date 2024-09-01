@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+ <user>
+ <userName>admin</userName>
+ <passwd>admin</passwd>
+ <fullName>Administrator</fullName>
+ <email>admin@gmail.com</email>
+ <date>2018-09-10</date>
+ <status>2</status>
+ </user>
+ <user>
+ <userName>beatap</userName>
+ <passwd>beatap</passwd>
+ <fullName>Beata P.</fullName>
+ <email>beatap@gmail.com</email>
+ <date>2018-10-10</date>
+ <status>1</status>
+ </user>
+<user><userName>szesny123</userName><fullName>Wojciech Szczesny</fullName><passwd>$2y$10$4CJdLGp5khjYRlFyCTVxj.eWfLpXSEHzRc02NSqBzjVAHWThdZ0gy</passwd><email>szczesny@gmail.com</email><date>2022-11-22</date><status>1</status></user><user><userName>Rl9</userName><fullName>Robert Lewandowski</fullName><passwd>$2y$10$ppe0eaXxpXo4Kwc077KGEed9aq5EcsOZoH0D79qhrSJif682ryImS</passwd><email>rl9@gmail.com</email><date>2022-11-22</date><status>1</status></user><user><userName>leom10</userName><fullName>Lionel Messi</fullName><passwd>$2y$10$KQE3FGeTAEx5W.xNy0nX9.3lXoGzMzprz60EaRcCRJFeIsHUDcZcm</passwd><email>lm10@gmail.com</email><date>2022-11-22</date><status>1</status></user><user><userName>Cr7</userName><fullName>Cristiano Ronaldo</fullName><passwd>$2y$10$vWVZGIjpxhpjihhU8OPLTeyqWjmxW3hShegU59P6A3JczJh.LM07i</passwd><email>cr7@gmail.com</email><date>2022-11-22</date><status>1</status></user></users>

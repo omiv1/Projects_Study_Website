@@ -1,0 +1,28 @@
+.temperature {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.stały p {
+  color: black;
+}
+
+.ciekły p {
+  color: blue;
+}
+
+.gazowy p {
+  color: lightgray;
+}

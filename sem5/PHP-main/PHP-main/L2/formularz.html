@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz PHP</title>
+</head>
+<body>
+    <header><h1>Formularz do testow PHP</h1></header>
+    <form action="odbierz2.php" method="GET">
+        <table>
+            <tr><td><label for ="nazwisko">Nazwisko :</label></td> <td><input id="nazwisko" type="text" name="Nazwisko"/></td></tr> 
+            <tr><td><label for ="age">Wiek:</label></td> <td><input id="age" type="text" name="age"/></td></tr>
+            <tr><td>Państwo: </td> <td>
+                <select name="Kraje">
+                    <option value="1">Pl</option>
+                    <option value="2">Deu</option>
+                    <option value="3">Ang</option>
+                  </select>
+                </td></tr> 
+            <tr><td><label for ="e-mail"> Adres e-mail: </label></td><td><input id="e-mail" type="text" name="e-mail"/></td></tr> 
+        </table>
+        <b>Zamawiam tutorial z języka: </b><br />
+        <br/>
+        <input type="checkbox" name="C" value="C" /> PHP
+        <input type="checkbox" name="Java" value="J" /> C/C++
+        <input type="checkbox" name="PHP" value="PHP" /> Java <br />
+        <br/>
+        <b>Sposób zapłaty: </b> <br />
+        <br/>
+        <input type="radio" name="przegladarka" value="Ff" /> eurocard 
+        <input type="radio" name="przegladarka" value="Ch" /> visa 
+        <input type="radio" name="przegladarka" value="II" />
+        przelew bankowy<br />
+        <input type="submit" value="Wyślij" />
+        <input type="reset" value="Anuluj" />
+        <br/>
+        <br/>
+        </form>
+</body>
+</html>

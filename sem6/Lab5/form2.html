@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+</head>
+<body>
+    <form action="/result" method="POST">
+        <label for="name">Imię i nazwisko: </label>
+        <input type="text" id="name" name="name"><br><br>
+        <input type="checkbox" id="english" name="languages" value="Angielski">
+        <label for="Angielski">Angielski</label><br>
+        <input type="checkbox" id="spanish" name="languages" value="Hiszpański">
+        <label for="Hiszpański">Hiszpański</label><br>
+        <input type="checkbox" id="french" name="languages" value="Francuski">
+        <label for="Francuski">Francuski</label><br><br>
+        <input type="submit" value="Wyślij POST">
+    </form>
+</body>
+</html>

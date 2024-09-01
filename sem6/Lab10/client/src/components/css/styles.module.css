@@ -1,0 +1,91 @@
+/* Signup and Login Styles */
+.signup_container,
+.login_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.signup_form_container,
+.login_form_container {
+  display: flex;
+  width: 700px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.left {
+  flex: 1;
+  background-color: #4caf50;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.right {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.error_msg {
+  color: red;
+  margin: 10px 0;
+}
+
+.green_btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.white_btn {
+  background-color: white;
+  color: #4caf50;
+  padding: 10px;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Main Component Styles */
+.main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.navbar {
+  width: 100%;
+  padding: 20px;
+  background-color: #4caf50;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

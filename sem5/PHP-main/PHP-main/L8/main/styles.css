@@ -1,0 +1,10 @@
+#form{
+    display:grid;
+    justify-content: center;
+    border-style: double;
+}
+.dane{
+    display:grid;
+    justify-content: center;
+    border-style: double;
+}

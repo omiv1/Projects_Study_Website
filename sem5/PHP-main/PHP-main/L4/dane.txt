@@ -1,0 +1,5 @@
+Adamczyk, Polska, 12, mattiadamczyk10@gmail.com, Java, C#, Visa, 
+Basak, Polska, 52, mbasak@gmail.com, HTML, CSS, Visa, 
+Baran, Polska, 53, baran@gmail.com, CSS, JavaScript, Visa, 
+Nowak, Polska, 22, nowak@gmail.com, C, JavaScript, 
+Adamczyk, Polska, 15, mattiadamczyk10@gmail.com, Java, 

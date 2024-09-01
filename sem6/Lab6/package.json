@@ -1,0 +1,21 @@
+{
+  "name": "express-serwer",
+  "description": "Prosta aplikacja serwerowa oparta na szkielecie Express",
+  "main": "server.js",
+  "keywords": [
+    "express",
+    "serwer"
+  ],
+  "author": "Jan",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node zadanie3c.js",
+    "dev": "nodemon zadanie3c.js"
+  }
+}
